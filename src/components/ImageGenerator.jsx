@@ -22,18 +22,22 @@ function ImageGenerator() {
   };
 
   return (
+    <div className="w-full h-[88vh] flex flex-col justify-center items-center content-center">
+
     <div>
       <input
+      className='border-2 p-1 rounded-md border-green-950 m-2'
         type="text"
         placeholder="Enter your image prompt"
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
       />
-      <button onClick={generateImage}>Generate Image</button>
+      <button className='bg-yellow-400 p-1 rounded-md' onClick={generateImage}>Generate Image</button>
 
       {image && (
         <img src={`https://storage.googleapis.com/vertex-ai-generated-images/${image}`} alt="Generated Image" />
       )}
+    </div>
     </div>
   );
 }
