@@ -37,6 +37,9 @@ const Navbar = () => {
 
             <NavLink to="/" className="rounded-md active:red px-3 py-2 text-sm font-medium hover:bg-gray-700 text-white" aria-current="page" >Qr-Code</NavLink>
             <NavLink to="/image" className="rounded-md px-3 active:red py-2 text-sm font-medium hover:bg-gray-700 text-white" aria-current="page" >Image-Generator</NavLink>
+            <NavLink to="https://www.instagram.com/nittish_baboria"    target='_blank' className="rounded-md px-3 active:red py-2 text-sm font-medium hover:bg-gray-700 text-white" aria-current="page" >Nittish Instagram</NavLink>
+            <NavLink to="https://www.linkedin.com/in/nittish-baboria"  target='_blank' className="rounded-md px-3 active:red py-2 text-sm font-medium hover:bg-gray-700 text-white" aria-current="page" >Nittish Linked in</NavLink>
+            <NavLink to="https://nittish-portfolio.netlify.app/"                 target='_blank' className="rounded-md px-3 active:red py-2 text-sm font-medium hover:bg-gray-700 text-white" aria-current="page" >Nittish Portfolio</NavLink>
 
           </div>
         </div>
@@ -56,7 +59,7 @@ const Navbar = () => {
             <button type="button" className="relative flex rounded-full bg-gray-800 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
               <span className="absolute -inset-1.5"></span>
               <span className="sr-only">Open user menu</span>
-              <img className="size-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+              <img className="size-8 rounded-full" src="https://avatars.githubusercontent.com/u/137718877?s=400&u=059ef6bb2f532986f496f6ac7dbe45bfbfe4e04e&v=4" alt=""/>
             </button>
           </div>
 
@@ -80,6 +83,10 @@ const Navbar = () => {
 
       <NavLink to="/" className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700" aria-current="page" >Qr-Code</NavLink>
       <NavLink to="/image" className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700"  aria-current="page" >Image-Generator</NavLink>
+      <NavLink to="https://www.instagram.com/nittish_baboria"   target='_blank'     className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700"  aria-current="page" >Nittish-Instagram</NavLink>
+      <NavLink to="https://www.linkedin.com/in/nittish-baboria" target='_blank'    className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700"  aria-current="page" >Nittish-Linked in</NavLink>
+      <NavLink to="https://github.com/nittish03"                target='_blank'     className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700"  aria-current="page" >Nittish-Github</NavLink>
+      <NavLink to="https://nittish-portfolio.netlify.app/"                target='_blank'     className="block active:red rounded-md  px-3 py-2 text-base font-medium text-white hover:bg-gray-700"  aria-current="page" >Nittish-Portfolio</NavLink>
 
     </div>
   </div>
